@@ -21,7 +21,7 @@ function Proposal({ onClose }) {
     <div className="proposal-modal-overlay">
       <div className="proposal-modal-content">
         <div className="proposal-modal-header">
-          <div className="proposal-modal-logo">LOGO</div>
+          <div className="proposal-modal-logo">CARBOT</div>
           <button className="proposal-modal-close" onClick={onClose}>
             <MdOutlineClose />
           </button>

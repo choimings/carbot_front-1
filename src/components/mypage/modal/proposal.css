@@ -27,6 +27,8 @@
 }
 
 .proposal-modal-logo {
+  margin-left: 20px;
+  font-family: 'Orbitron', sans-serif;
   font-weight: bold;
   text-align: center;
   width: 100%;
@@ -46,7 +48,7 @@
   color: black;
 }
 
-.proposal-modal-body .section {
+.proposal-modal-body .proposal-section {
   margin-bottom: 20px;
 }
 
