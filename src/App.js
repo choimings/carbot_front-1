@@ -15,6 +15,9 @@ import Mypage from './components/mypage/mypage';
 import CallbotIcon from './components/callbot/callbotIcon';
 import AdminLogin from './components/management/login/AdminLogin';
 import AdminDashboard from './components/management/full/AdminDashboard';
+import Avante from './components/main/MainCarInfo/Avante';
+import Grandeur from './components/main/MainCarInfo/Grandeur';
+import Palisade from './components/main/MainCarInfo/Palisade';
 
 const App = () => {
   return (
@@ -24,6 +27,9 @@ const App = () => {
           {/* Layout을 모든 페이지의 상위 컴포넌트로 설정 */}
           <Route element={<Layout />}>
             <Route path="/" element={<Main />} />
+            <Route path="/MainCarInfo/Avante" element={<Avante />} />
+            <Route path="/MainCarInfo/Grandeur" element={<Grandeur />} />
+            <Route path="/MainCarInfo/Palisade" element={<Palisade />} />
             <Route path="/Notification" element={<Notification />} />
             <Route path="/Mypage" element={<Mypage />} />
             <Route path="/login" element={<Login />} />
