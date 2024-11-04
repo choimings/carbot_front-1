@@ -10,7 +10,7 @@
   background-color: #1c1c1c;
   flex-direction: column;
   padding: 40px;
-  height: 81.4vh;
+  height: 81.3vh;
 }
 
 /* 제목 스타일 */
@@ -52,6 +52,10 @@
 .carinfo-ul {
   margin-top: 50px;
   font-size: 22px;
+}
+
+.carinfo-ul li {
+  white-space: nowrap; /* 개행 없이 한 줄로 표시 */
 }
 
 .carinfo-specifications h3 {
